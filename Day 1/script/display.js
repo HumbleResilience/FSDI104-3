@@ -2,7 +2,7 @@ function displayCards(aPet){
     let petsDiv=document.getElementById("pets");
     
     let tmp=`
-    <div class="bg-container">
+    <div class="bg-container" id="bg-container">
         <div class="bg">
             <h1>${aPet.name}</h1>
             <p>Age: ${aPet.age}</p>
@@ -17,6 +17,7 @@ function displayCards(aPet){
     
     petsDiv.innerHTML+=tmp;
 
+ 
    
 
 }
